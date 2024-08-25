@@ -3,7 +3,7 @@ name: autorun
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *' # 每 5 分钟运行一次
+    - cron: '*/30 * * * *' # 每 30 分钟运行一次
 
 jobs:
   ssh-and-run:
